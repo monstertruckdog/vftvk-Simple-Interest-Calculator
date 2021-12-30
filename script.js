@@ -12,7 +12,7 @@ const compute = () => {
     document.getElementById('error-principal').textContent = ``;
     document.getElementById('compute-results').textContent = ``;
 
-    if (principal_val < 0) {
+    if (principal_val <= 0) {
         document.getElementById('error-principal').textContent = `Invalid value.  \"Amount\" must be greater than 0`;
     } else {
         const year = new Date().getFullYear()+parseInt(years_val);
@@ -35,7 +35,7 @@ const reset = () => {
     resultsText.style.display = "none";
     document.getElementById('compute')
     document.getElementById('principal').value = '';
-    document.getElementById('slider-input-box').value = '0';
+    document.getElementById('slider-input-box').value = '1';
     document.getElementById('slide-thumb').style.left = '0%';
     document.getElementById('slide-filled').style.transform = 'translate(0%, -50%) scaleX(0)';
     document.getElementById('example-ap3t91wclrj-value').innerHTML = '';
