@@ -53,5 +53,5 @@ This final project for the [IBM CAD101EN badge](https://learning.edx.org/course/
 
 ## Access
 
-* **GitHub Repository**:  [monstertruckdog/vftvk-Simple-Interest-Calculator](https://github.com/monstertruckdog/vftvk-Simple-Interest-Calculator)
+* **GitHub Repository**:  [monstertruckdog/vftvk-Simple-Interest-Calculator](https://github.com/monstertruckdog/vftvk-Simple-Interest-Calculator/tree/01_-_initial_changes)
 * **Deployed App (_GitHub Pages_)**:  [Simple Interest Calculator](https://monstertruckdog.github.io/vftvk-Simple-Interest-Calculator/)
